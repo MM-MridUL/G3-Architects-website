@@ -1,6 +1,65 @@
 /* Work sans fonts */
-@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
 
-*{
-    font-family: "Work Sans", sans-serif;
+* {
+  font-family: "Work Sans", sans-serif;
+}
+
+/* Common shared styles */
+.btm-primary {
+  background-color: rgba(255, 144, 14, 1);
+  color: #ffffff;
+  font-size: 1.2rem;
+  font-weight: 600;
+  padding: 20px 30px;
+  border: none;
+  border-radius: 5px;
+}
+
+/* Header styles */
+
+header {
+  background-color: rgba(255, 144, 14, 0.1);
+  padding: 20px 240px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-title {
+  color: #131313;
+  font-size: 2.8rem;
+  font-weight: 700;
+}
+nav > ul {
+  display: flex;
+}
+nav li {
+  list-style: none;
+}
+nav ul li a {
+  text-decoration: none;
+  margin-right: 30px;
+  font-weight: 500;
+  font-size: 1rem;
+  color: #424242;
+}
+
+/* Banner Styles */
+.banner-content{
+    max-width: 800px;
+    text-align: center;
+    margin: 0 auto;
+    background-color: aqua;
+}
+.banner-title{
+    color: #131313;
+    font-size: 4rem;
+    font-weight: 700px;
+}
+
+.banner-description{
+    color: #727272;
 }
