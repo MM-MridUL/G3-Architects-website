@@ -115,14 +115,34 @@ main{
     margin-top: 130px;
     display: flex;
     gap: 150px;
+    background-color: aqua;
+}
+.features .section-title{
+
+border-left: 5px solid #FF900E;
+padding-left: 20px;    
+}
+.feature-content{
+    background-color: tomato;
 }
 .feature-content .card{
     padding: 30px;
-    margin-top: 20px;
+    margin-bottom: 20px;
     border-radius: 8px;
     background-color: #fff;
     box-shadow: 0px 4px 30px 0px rgba(0,0,0,0.06);
 }
+.ten-years-badge{
+    border-radius: 8px;
+    background-color: #FF900E;
+    color: #FFF;
+    width: 342px;
+    padding: 40px;
+}
+.ten-years-badge h2{
+    font-size: 4rem;
+}
+.ten-years-badge p{}
 
 
 /* Facts section styles */
